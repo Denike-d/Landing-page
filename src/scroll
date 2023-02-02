@@ -1,0 +1,28 @@
+// Here is an example of how to add a scroll button using arrow icons in a React component:
+
+// Create a ref for the div that you want to scroll. For example:
+
+// const myDiv = useRef(null);
+// Create a function that scrolls the div to a specific position. For example:
+
+// const handleScroll = (direction) => {
+//   if (direction === 'up') {
+//     myDiv.current.scrollBy({top: -50, behavior: 'smooth'});
+//   } else if (direction === 'down') {
+//     myDiv.current.scrollBy({top: 50, behavior: 'smooth'});
+//   }
+// }
+// In your JSX, add button elements that call the handleScroll function when clicked, and include the arrow icons using the unicode characters. For example:
+
+// return (
+//   <div>
+//     <div ref={myDiv} style={{height: '100px', overflow: 'auto'}}>
+//     {/* Your content here */}
+//     </div>
+//     <button onClick={() => handleScroll('up')}>&#8593;</button>
+//     <button onClick={() => handleScroll('down')}>&#8595;</button>
+//   </div>
+// );
+// Note: The example above uses the unicode characters for the up arrow (↑) and the down arrow (↓) respectively. You can also use an SVG image or an icon library like fontawesome to add the arrow icons. The example also limits the height of the div with overflow 'auto' so that the scrollbar will appear only when the content overflows.
+
+// You can also adjust the amount of scrolling by changing the value passed to scrollBy function. For example, you can increase the value to scroll more and decrease the value to scroll less.

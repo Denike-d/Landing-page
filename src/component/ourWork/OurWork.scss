@@ -1,0 +1,52 @@
+.our-work{
+    margin-top: 5rem;
+
+    .work{
+        display: flex;
+        justify-content: center;
+        margin: 0 12rem;
+        text-align: center;
+
+         .text{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        p{
+            text-align: center;
+        }
+    }
+    .companies{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+
+      .item{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+   
+
+        p{
+            line-height: 2rem;
+        }
+      }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .our-work{
+        .work{
+            display: block;
+        }
+        .companies{
+            display: block;
+
+            div img{
+                width: 250px;
+            }
+        }
+    }
+  }

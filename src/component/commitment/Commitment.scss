@@ -1,0 +1,41 @@
+.commiment{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    margin-top: 12rem;
+    
+    .left{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+
+        p strong{
+            font-size: 2rem;
+        }
+
+        .statistics{
+            width: 10rem;
+        }
+    }
+
+    .right{
+        p{
+            line-height: 2rem;
+        }
+     
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .commiment{
+        margin-top: 9rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        
+        .left{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+  }
