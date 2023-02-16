@@ -34,10 +34,17 @@
 }
 @media screen and (max-width: 600px) {
     .testimonials{
+        h3{
+            text-align: center;
+        }
         .persons{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             justify-content: center;
+            
+            .person{
+                width: 200px;
+            }
         }
    
         

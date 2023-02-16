@@ -28,14 +28,20 @@
 
 @media screen and (max-width: 600px) {
     .commiment{
-        margin-top: 9rem;
+        margin: 20rem 5rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+      
         
         .left{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
+        }
+        .right{
+            p{
+                text-align: center;
+            }
         }
     }
   }

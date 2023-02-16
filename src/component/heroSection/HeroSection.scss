@@ -34,20 +34,27 @@
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
         grid-gap: 0;
-        align-items: center;
+        // align-items: center;
 
         .right{
+            padding: 1rem;
+
             p strong{
+
             font-weight: bold;
             font-size: 1.5rem;
             margin-bottom: 2rem;
+            text-align: center;
             line-height: 3rem;
             }
         }
 
         .left{
+           
             img{
+                justify-content: center;
                 width: 300px;
+                margin-bottom: 3rem;
             }
         }
         

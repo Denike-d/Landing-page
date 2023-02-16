@@ -38,11 +38,15 @@
 
 @media screen and (max-width: 600px) {
     .our-work{
+        margin-top: 4rem;
+        width: 100%;
         .work{
             display: block;
+            margin: 0 1rem;
         }
         .companies{
-            display: block;
+            display: inline-block;
+            justify-content: center;
 
             div img{
                 width: 250px;

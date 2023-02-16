@@ -25,6 +25,7 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       justify-content: center;
+      margin-top: 3rem;
 
     .right{
       display: grid;
@@ -32,6 +33,7 @@
       justify-content: center;
     }
     .left{
+      align-items: center;
       img{
         width: 250px;
       }
